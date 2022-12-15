@@ -23,3 +23,25 @@ const isEven = (num) =>{
   	return isEven(num%2);
   }
 }
+
+//bean counting
+
+let countBs = (str) =>{
+  let count =0;
+  for (el of str){
+    if(el == 'B'){
+      count+=1;
+    }
+  }
+  return count;
+}
+
+countChar = (str , ch) =>{
+  let count =0;
+  for (el of str){
+    if(el == ch){
+      count+=1;
+    }
+  }
+  return count;
+}

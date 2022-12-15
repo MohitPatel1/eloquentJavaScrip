@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    
+    
+ //chess board
+ for(var r=0 ; r<8 ; r++)
+    {
+        var oput = "";
+     if(r%2==0){
+         oput += " ";
+     }
+     for(i=1 ; i<=4 ; i++)
+     {
+         oput += "# ";
+     }
+     console.log(oput);
+    }
+
+//FizzBuzz
+ for(var c=1 ; c<=100 ; c++)
+ {
+ var d3 = "Fizz";
+ var d5 = "Buzz";
+
+     if(c%3==0)
+     {
+         if(c%5==0)
+         {
+             console.log(d3+d5);
+             continue;         }
+         console.log(d3);
+     }
+     else if(c%5==0)
+     {
+         console.log(d5);
+     }
+     else
+         console.log(c);
+ }
+
+//pattern
+var oput="";
+for(var i=1 ; i<=7 ; i++)
+{
+    oput += "#";
+        console.log(oput);
+}
+</script> 
+
+
+</body>
+</html>
+
